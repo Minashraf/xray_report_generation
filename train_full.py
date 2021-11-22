@@ -133,7 +133,7 @@ if __name__ == "__main__":
         NUM_LABELS = 114
         NUM_CLASSES = 2
 
-        dataset = NLMCXR('/home/hoang/Datasets/NLMCXR/', INPUT_SIZE, view_pos=['AP','PA','LATERAL'], max_views=MAX_VIEWS, sources=SOURCES, targets=TARGETS)
+        dataset = NLMCXR('Vocabulary/', INPUT_SIZE, view_pos=['AP','PA','LATERAL'], max_views=MAX_VIEWS, sources=SOURCES, targets=TARGETS)
         train_data, val_data, test_data = dataset.get_subsets(seed=123)
         
         VOCAB_SIZE = len(dataset.vocab)
