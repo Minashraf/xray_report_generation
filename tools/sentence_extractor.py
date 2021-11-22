@@ -23,7 +23,7 @@ import json
 
 
 # --- For OpenI dataset ---
-dataset_dir = 'open-i/'
+dataset_dir = '../open-i/'
 section_tgt = 'FINDINGS'
 
 reports = json.load(open(dataset_dir + 'reports_ori.json', 'r'))
