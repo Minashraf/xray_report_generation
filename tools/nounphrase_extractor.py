@@ -5,7 +5,7 @@ from tqdm import tqdm
 nlp = spacy.load('en_core_web_sm')
 
 # dataset_dir = '/home/hoang/Datasets/MIMIC/'
-dataset_dir = '/home/hoang/Datasets/NLMCXR/'
+dataset_dir = '../open-i/'
 count_sentence = json.load(open(dataset_dir + 'count_sentence.json', 'r'))
 
 np_count = {}
@@ -17,7 +17,7 @@ for k,v in tqdm(count_sentence.items()):
         else:
             np_count[np.text] += v
 
-json.dump(np_count, open(dataset_dir + 'count_nounphrase.json', 'w'))
+json.dump(np_count, open(dataset_dir + '../open-i/count_nounphrase.json', 'w'))
             
 
             
