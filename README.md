@@ -31,9 +31,11 @@ We use two datasets for experiments to validate our method:
    
    - Hardware: tested with RTX 2080 TI (11G)
 
-   - Software: tested with PyTorch 1.5.1, Python3.7, CUDA 10.0, tensorboardX, Ninja, tqdm, Easydict
+   - Software: tested with PyTorch 1.5.1, Python3.7, CUDA 10.0, tensorboardX, tqdm
    
    - Anaconda is strongly recommended
+   
+   - Other Libraries: [Spacy](https://spacy.io/), [SentencePiece](https://github.com/google/sentencepiece), [nlg-eval](https://github.com/Maluuba/nlg-eval)
 
 
 # How to use our code for train/test
