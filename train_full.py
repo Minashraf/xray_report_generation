@@ -70,7 +70,7 @@ torch.manual_seed(seed=123)
 
 RELOAD = True # True / False
 PHASE = 'INFER' # TRAIN / TEST / INFER
-DATASET_NAME = 'MIMIC' # NIHCXR / NLMCXR / MIMIC 
+DATASET_NAME = 'NLMCXR' # NIHCXR / NLMCXR / MIMIC 
 BACKBONE_NAME = 'DenseNet121' # ResNeSt50 / ResNet50 / DenseNet121
 MODEL_NAME = 'ClsGenInt' # ClsGen / ClsGenInt / VisualTransformer / GumbelTransformer
 
