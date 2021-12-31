@@ -4,8 +4,8 @@ from tqdm import tqdm
 
 nlp = spacy.load('en_core_web_sm')
 
-# dataset_dir = '/home/hoang/Datasets/MIMIC/'
-dataset_dir = '../open-i/'
+dataset_dir = '/content/share/'
+# dataset_dir = '../open-i/'
 count_sentence = json.load(open(dataset_dir + 'count_sentence.json', 'r'))
 
 np_count = {}
