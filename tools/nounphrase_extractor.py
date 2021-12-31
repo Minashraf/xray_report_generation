@@ -17,7 +17,7 @@ for k,v in tqdm(count_sentence.items()):
         else:
             np_count[np.text] += v
 
-json.dump(np_count, open(dataset_dir + '../open-i/count_nounphrase.json', 'w'))
+json.dump(np_count, open(dataset_dir + 'count_nounphrase.json', 'w'))
             
 
             
