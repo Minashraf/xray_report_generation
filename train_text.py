@@ -28,9 +28,9 @@ os.environ["OMP_NUM_THREADS"] = "1"
 torch.set_num_threads(1)
 torch.manual_seed(seed=0)
 
-RELOAD = True # True / False
-PHASE = 'TEST' # TRAIN / TEST
-DATASET_NAME = 'NLMCXR' # MIMIC / NLMCXR
+RELOAD = False # True / False
+PHASE = 'TRAIN' # TRAIN / TEST
+DATASET_NAME = 'MIMIC' # MIMIC / NLMCXR
 MODEL_NAME = 'Transformer' # Transformer / LSTM
 
 if DATASET_NAME == 'MIMIC':
